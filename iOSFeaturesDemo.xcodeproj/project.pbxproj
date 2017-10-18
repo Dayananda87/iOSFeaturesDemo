@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F932DE271F970C8D000E2CD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F932DE261F970C8D000E2CD8 /* AppDelegate.swift */; };
-		F932DE291F970C8D000E2CD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F932DE281F970C8D000E2CD8 /* ViewController.swift */; };
 		F932DE2C1F970C8D000E2CD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F932DE2A1F970C8D000E2CD8 /* Main.storyboard */; };
 		F932DE2E1F970C8D000E2CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F932DE2D1F970C8D000E2CD8 /* Assets.xcassets */; };
 		F932DE311F970C8D000E2CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F932DE2F1F970C8D000E2CD8 /* LaunchScreen.storyboard */; };
 		F932DE3C1F970C8D000E2CD8 /* iOSFeaturesDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F932DE3B1F970C8D000E2CD8 /* iOSFeaturesDemoTests.swift */; };
 		F932DE471F970C8D000E2CD8 /* iOSFeaturesDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F932DE461F970C8D000E2CD8 /* iOSFeaturesDemoUITests.swift */; };
+		F932DE551F970D24000E2CD8 /* DSNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F932DE541F970D24000E2CD8 /* DSNavigationViewController.swift */; };
+		F932DE571F970D61000E2CD8 /* DSTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F932DE561F970D61000E2CD8 /* DSTableViewController.swift */; };
+		F932DE591F9716C7000E2CD8 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F932DE581F9716C7000E2CD8 /* ImageViewController.swift */; };
+		F932DE5C1F971790000E2CD8 /* b786a9e22a34bd18a07c4f09bd25b984--emma-watson-hd-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F932DE5B1F97178F000E2CD8 /* b786a9e22a34bd18a07c4f09bd25b984--emma-watson-hd-wallpaper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		F932DE231F970C8D000E2CD8 /* iOSFeaturesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFeaturesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F932DE261F970C8D000E2CD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F932DE281F970C8D000E2CD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F932DE2B1F970C8D000E2CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F932DE2D1F970C8D000E2CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F932DE301F970C8D000E2CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		F932DE421F970C8D000E2CD8 /* iOSFeaturesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSFeaturesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F932DE461F970C8D000E2CD8 /* iOSFeaturesDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSFeaturesDemoUITests.swift; sourceTree = "<group>"; };
 		F932DE481F970C8D000E2CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F932DE541F970D24000E2CD8 /* DSNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSNavigationViewController.swift; sourceTree = "<group>"; };
+		F932DE561F970D61000E2CD8 /* DSTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTableViewController.swift; sourceTree = "<group>"; };
+		F932DE581F9716C7000E2CD8 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		F932DE5B1F97178F000E2CD8 /* b786a9e22a34bd18a07c4f09bd25b984--emma-watson-hd-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "b786a9e22a34bd18a07c4f09bd25b984--emma-watson-hd-wallpaper.jpg"; path = "../../../../../../Users/nandu/Downloads/b786a9e22a34bd18a07c4f09bd25b984--emma-watson-hd-wallpaper.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		F932DE251F970C8D000E2CD8 /* iOSFeaturesDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F932DE5A1F971784000E2CD8 /* Resources */,
 				F932DE261F970C8D000E2CD8 /* AppDelegate.swift */,
-				F932DE281F970C8D000E2CD8 /* ViewController.swift */,
 				F932DE2A1F970C8D000E2CD8 /* Main.storyboard */,
 				F932DE2D1F970C8D000E2CD8 /* Assets.xcassets */,
 				F932DE2F1F970C8D000E2CD8 /* LaunchScreen.storyboard */,
 				F932DE321F970C8D000E2CD8 /* Info.plist */,
+				F932DE541F970D24000E2CD8 /* DSNavigationViewController.swift */,
+				F932DE561F970D61000E2CD8 /* DSTableViewController.swift */,
+				F932DE581F9716C7000E2CD8 /* ImageViewController.swift */,
 			);
 			path = iOSFeaturesDemo;
 			sourceTree = "<group>";
@@ -123,6 +132,14 @@
 				F932DE481F970C8D000E2CD8 /* Info.plist */,
 			);
 			path = iOSFeaturesDemoUITests;
+			sourceTree = "<group>";
+		};
+		F932DE5A1F971784000E2CD8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F932DE5B1F97178F000E2CD8 /* b786a9e22a34bd18a07c4f09bd25b984--emma-watson-hd-wallpaper.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F932DE311F970C8D000E2CD8 /* LaunchScreen.storyboard in Resources */,
+				F932DE5C1F971790000E2CD8 /* b786a9e22a34bd18a07c4f09bd25b984--emma-watson-hd-wallpaper.jpg in Resources */,
 				F932DE2E1F970C8D000E2CD8 /* Assets.xcassets in Resources */,
 				F932DE2C1F970C8D000E2CD8 /* Main.storyboard in Resources */,
 			);
@@ -259,7 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F932DE291F970C8D000E2CD8 /* ViewController.swift in Sources */,
+				F932DE571F970D61000E2CD8 /* DSTableViewController.swift in Sources */,
+				F932DE551F970D24000E2CD8 /* DSNavigationViewController.swift in Sources */,
+				F932DE591F9716C7000E2CD8 /* ImageViewController.swift in Sources */,
 				F932DE271F970C8D000E2CD8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
